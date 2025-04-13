@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Crypto Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Crypto Tracker</h1>
+        <div class="controls">
+            <input type="search" id="search-box" placeholder="Search Crypto (e.g., BTC, Ethereum)...">
+            <div id="status">Initializing...</div>
+        </div>
+    </header>
+
+    <main class="crypto-container" id="crypto-container">
+        <!-- Crypto cards will be dynamically added here -->
+        <div class="loading-placeholder">Loading initial prices...</div>
+    </main>
+
+    <footer>
+        Data via Binance API
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
